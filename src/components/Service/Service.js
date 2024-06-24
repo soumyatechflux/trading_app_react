@@ -20,6 +20,7 @@ function Service() {
                 </div>
                 <div className="container">
                     <div className="row mt-5 mb-3">
+                    <div className="img-res"><img src={icon1} id="iconimg1-res" className="iconimg" alt="Icon 1" /></div>
                         <div className="transitionnnnnn col-lg-4 col-12" style={{ textAlign: "end", fontSize: "18px" }}>
                             <h5 className="head">Pass Free Account</h5>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus harum sint, voluptatem a provident veritatis error in.
@@ -28,7 +29,7 @@ function Service() {
                             <img src={icon1} id="iconimg" className="iconimg" alt="Icon 1" />
                             <img src={icon2} id="iconimg2" className="iconimg" alt="Icon 2" />
                         </div>
-                        
+                        <div className="img-res"><img src={icon2} id="iconimg2-res" className="iconimg" alt="Icon 2" /></div>
                         
                         <div className="transitionnnnnn col-lg-4 col-12" style={{ fontSize: "18px" }}>
                             <h5 style={{ fontFamily: "'Poppins'", fontWeight: 700 }}>Easy To Start</h5>
@@ -39,7 +40,7 @@ function Service() {
                     <div className="row">
                         <div className="col-lg-4 col-12"></div>
 
-                        <div className="col-lg-4 col-12 alignimg" id="alignimg">
+                        <div className="col-lg-4 col-12 alignimg" id="alignimg-pc">
                             <div className="position-relative">
                                 <img src={pc1} id="pcimg" alt="PC Image" />
                                     <img
@@ -55,6 +56,7 @@ function Service() {
                     </div>
 
                     <div className="row mt-3">
+                    <div className="img-res"><img src={icon3} id="iconimg3-res" className="iconimg" alt="Icon 3" /></div>
                         <div className="transitionnnnnn col-lg-4 col-12" style={{ textAlign: "end", fontSize: "18px" }}>
                             <h5 className="head">Affordable Plans</h5>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus harum sint, voluptatem a provident veritatis error in, dolor nesciunt illum tenetur.
@@ -63,6 +65,7 @@ function Service() {
                             <img src={icon3} id="iconimg3" className="iconimg" alt="Icon 3" />
                             <img src={icon4} id="iconimg4" className="iconimg" alt="Icon 4" />
                         </div>
+                        <div className="img-res"><img src={icon4} id="iconimg4-res" className="iconimg" alt="Icon 4" /></div>
                         <div className="transitionnnnnn col-lg-4 col-12" style={{ fontSize: "18px" }}>
                             <h5 style={{ fontFamily: "'Poppins'", fontWeight: 700 }}>24/7 Support</h5>
                             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde aut placeat beatae mollitia similique itaque fugit, iste ipsa, pariatur ea ipsam do.
