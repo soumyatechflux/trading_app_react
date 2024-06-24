@@ -54,4 +54,27 @@
     transform: scale(1.05); 
     cursor: pointer;
   }
-  
+  .iconimg2-res,.iconimg1-res,.iconimg3-res,.iconimg4-res{
+    display: none;
+  }
+
+  @media(max-width:768px){
+    #iconimg2-res,#iconimg1-res,#iconimg3-res,#iconimg4-res{
+        display: block;
+        width: 12%;
+        float: right;
+      }
+
+      .img-res{
+        display: flex;
+        justify-content: end;
+      }
+
+      #alignimg,#alignimg2{
+        display: none;
+      }
+
+      #alignimg-pc{
+        display: block;
+      }
+  }
