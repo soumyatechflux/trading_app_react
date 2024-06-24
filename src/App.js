@@ -43,12 +43,16 @@ function App() {
               </>
             }
           />
-          <Route path="/faqs" element={<Fade><FAQ /></Fade>} />
-          <Route path="/privacy_policy" element={<Fade><PrivacyPolicy /></Fade>} />
-          <Route path="/about_us" element={<Fade><AboutUs /></Fade>} />
-          <Route path="/contact_us" element={<Fade><ContactUs /></Fade>} />
-          <Route path="/terms_and_conditions" element={<Fade><TermsAndCondition /></Fade>} />
-          <Route path="/pricing_ranges" element={<Fade><PricingFooter /></Fade>} />
+
+
+          <Route path="/faqs" element={<Fade top><FAQ /></Fade>} />
+          <Route path="/privacy_policy" element={<Fade top><PrivacyPolicy /></Fade>} />
+          <Route path="/about_us" element={<Fade top><AboutUs /></Fade>} />
+          <Route path="/contact_us" element={<Fade top><ContactUs /></Fade>} />
+          <Route path="/terms_and_conditions" element={<Fade top><TermsAndCondition /></Fade>} />
+          <Route path="/pricing_ranges" element={<Fade top><PricingFooter /></Fade>} />
+
+
         </Routes>
         <Footer />
       </div>
