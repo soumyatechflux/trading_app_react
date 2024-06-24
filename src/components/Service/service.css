@@ -58,6 +58,11 @@
     display: none;
   }
 
+  .img-res{
+    display: none;
+    /* justify-content: end; */
+  }
+
   @media(max-width:768px){
     #iconimg2-res,#iconimg1-res,#iconimg3-res,#iconimg4-res{
         display: block;
@@ -66,7 +71,7 @@
       }
 
       .img-res{
-        display: flex;
+        display: block;
         justify-content: end;
       }
 

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Testimonials.css';
+import starImage from './start_img.png'
 
 const testimonialsData = [
     {
@@ -7,7 +8,7 @@ const testimonialsData = [
       position: "Marketing manager Director",
       review: "Lorem, ipsum dolor sit amet consectet minus modi distinctio! Doloribus aliquam iure officiis provident tempore quibusdam facilis consequatur.",
       img: "img/Ellipse 20.png",
-      stars: Array(3).fill("img/Image+Background (1).png")
+      stars: Array(3).fill(starImage)
     },
 
     {
@@ -15,49 +16,49 @@ const testimonialsData = [
       position: "Developer Engineer",
       review: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
       img: "img/Ellipse 20.png",
-      stars: Array(5).fill("img/Image+Background (1).png")
+      stars: Array(5).fill(starImage)
     },
     {
       name: "Wilson Bergson JKL",
       position: "Marketing manager",
       review: "Loctio! Doloribus aliquam iure officiis provident tempore quibusdam facilis consequatur.",
       img: "img/Ellipse 20.png",
-      stars: Array(2).fill("img/Image+Background (1).png")
+      stars: Array(2).fill(starImage)
     },
     {
       name: "Jane Doe MNO",
       position: "Project Manager",
       review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.",
       img: "img/Ellipse 20.png",
-      stars: Array(5).fill("img/Image+Background (1).png")
+      stars: Array(5).fill(starImage)
     },
     {
       name: "John Smith PQR",
       position: "Developer",
       review: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
       img: "img/Ellipse 20.png",
-      stars: Array(4).fill("img/Image+Background (1).png")
+      stars: Array(4).fill(starImage)
     },
     {
       name: "Wilson Bergson STU",
       position: "Marketing manager",
       review: "em impedit minus modi distinctio! Doloribus aliquam iure officiis provident tempore quibusdam facilis consequatur.",
       img: "img/Ellipse 20.png",
-      stars: Array(5).fill("img/Image+Background (1).png")
+      stars: Array(5).fill(starImage)
     },
     {
       name: "Jane Doe VWX",
       position: "Project Manager",
       review: "Lorem ipsum dolor sit amet,suere erat a ante.",
       img: "img/Ellipse 20.png",
-      stars: Array(4).fill("img/Image+Background (1).png")
+      stars: Array(4).fill(starImage)
     },
     {
       name: "John Smith YZ",
       position: "Developer Software",
       review: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
       img: "img/Ellipse 20.png",
-      stars: Array(2).fill("img/Image+Background (1).png")
+      stars: Array(2).fill(starImage)
     }
   ];
 
