@@ -1,0 +1,24 @@
+.About {
+    font-weight: 500;
+    font-size: 40px;
+}
+
+#Us {
+    font-size: 40px;
+    background-image: linear-gradient(90deg, #FBB040 0.61%, #FFF200 42%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.btn-div{
+    display: flex;
+    justify-content: center;
+}
+.message1,.exp{
+    color: #808080 !important;
+}
+
+@media(max-width:768px){
+    .bet-two{
+        margin-top: 10% !important;
+    }
+}
