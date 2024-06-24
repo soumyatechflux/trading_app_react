@@ -81,11 +81,7 @@ const Navbar = () => {
             </ul>
 
             <div className="loginDiv">
-              <button
-                className="btn  px-5"
-                style={buttonStyle}
-  
-              >
+              <button className="btn  px-5" style={buttonStyle}>
                 Log In
               </button>
             </div>

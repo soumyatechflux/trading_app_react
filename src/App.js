@@ -18,10 +18,12 @@ import TermsAndCondition from "./components/TermsAndCondition/TermsAndCondition"
 import ContactUs from "./components/ContactUs/ContactUs";
 import AboutUs from "./components/AboutUs/AboutUs";
 import PrivacyPolicy from "./components/PrivacyPolicy/PrivacyPolicy";
+import ScrollToTop from "./ScrollToTop"; 
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />  
       <div className="App">
         <Navbar />
         <Routes>
@@ -31,18 +33,11 @@ function App() {
               <>
                 <Fade top>
                   <About />
-         
                   <Service />
-            
                   <AdditionFeature />
-            
                   <Pricing />
-           
                   <Howitswork />
-             
                   <Testimonials />
-              
-             
                   <FAQ />
                 </Fade>
               </>
