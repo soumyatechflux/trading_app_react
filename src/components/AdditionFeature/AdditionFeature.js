@@ -18,26 +18,26 @@ const sections = [
     id: 2,
     image: image2,
     heading: "Platform to Trade from Anywhere in The World",
-    subheading: "BitCoin",
+    subheading: "Trade Log",
     content:
-      "Explore the world of Bitcoin trading with our comprehensive platform. Monitor and manage your Bitcoin transactions seamlessly. Utilize our interactive charts and flexible views to analyze market trends and execute informed trading strategies with confidence.",
+      "Gain insights into your trading performance with our comprehensive Trade Log. Keep track of every trade, from entry to exit, along with trade size, profit or loss, and the rationale behind each move. By maintaining a detailed trading log, you can refine your strategies and manage risk more effectively.",
   },
   {
     id: 3,
     image: image3,
     heading: "Platform to Trade from Anywhere in The World",
-    subheading: "Pi Coin",
+    subheading: "Analytics",
     content:
-      "Take charge of your Pi Coin investments with our intuitive platform. Monitor your transactions and analyze performance effortlessly. Leverage our interactive charts and customizable interface to stay ahead of market movements and optimize your trading decisions.",
+      "Unlock the power of data visualization with our Analytics feature. Visual representations such as charts and graphs provide you with deeper insights into your trading performance. Identify patterns, trends, and assess the effectiveness of your strategies effortlessly.",
   },
-  {
-    id: 4,
-    image: image4,
-    heading: "Platform to Trade from Anywhere in The World",
-    subheading: "Coin",
-    content:
-      "Optimize your trading experience with our versatile platform. Manage your Coin investments efficiently with real-time insights. Our interactive charts and customizable tools empower you to interpret market data and execute trades confidently.",
-  },
+  // {
+  //   id: 4,
+  //   image: image4,
+  //   heading: "Platform to Trade from Anywhere in The World",
+  //   subheading: "Coin",
+  //   content:
+  //     "Optimize your trading experience with our versatile platform. Manage your Coin investments efficiently with real-time insights. Our interactive charts and customizable tools empower you to interpret market data and execute trades confidently.",
+  // },
 ];
 
 const AdditionFeature = () => {
