@@ -20,7 +20,7 @@ const ContactUs = () => {
     const name = encodeURIComponent(formData.name);
     const email = encodeURIComponent(formData.email);
     const message = encodeURIComponent(formData.message);
-    const mailtoLink = `mailto:khitij@gmail.com?subject=Contact%20Form&body=Name:%20${name}%0AEmail:%20${email}%0AMessage:%20${message}`;
+    const mailtoLink = `mailto:tradejournal96@gmail.com?subject=Contact%20Form&body=Name:%20${name}%0AEmail:%20${email}%0AMessage:%20${message}`;
 
     // Open user's email client with pre-filled email content
     window.location.href = mailtoLink;
@@ -28,6 +28,13 @@ const ContactUs = () => {
     // Prevent the default form submission
     e.preventDefault();
   };
+
+
+
+
+  
+
+
 
   return (
     <section style={styles.section}>
